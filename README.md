@@ -78,7 +78,7 @@ mutation createKey($input: ApiKeyInput) {
   }
 }
 ```
-## Add this Key to your .env file
+## Add this secret token to your .env file
 ```
 ACCESS_TOKEN_SECRET=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNTY4NzU5ODEyLCJleHAiOjE1Njg3NTk4Mjd9.0i6Im2gKz7jj8wM7aZZzOPaBS_xHoZWAqBwnldn-lQQeyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiSmltIiwiaWF0IjoxNTY4NzU5OTIyfQ.RT6wszuCeFLwC_6ksmNMIELxiC5s-uRivfRxyZof5ag
 
