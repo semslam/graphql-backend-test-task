@@ -14,7 +14,7 @@ const createTables = ()=>{
         db.run(`CREATE TABLE IF NOT EXISTS apiKeys(id INTEGER PRIMARY KEY, email TEXT NOT NULL UNIQUE, password TEXT NOT NULL, token TEXT NOT NULL)`, err =>{
             if(err) return console.log(err.message);
     
-            console.log('Table keys created...')
+            console.log('Table apikeys created...')
         })
     })
 

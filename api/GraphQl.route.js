@@ -30,13 +30,8 @@ const root = {
         const hashPass = await hashPassword(password);
         const accessToken =  generateAccessToken({email})
         const {id,email: username,token} = await createKey({email,hashPass,accessToken})
-        console.log(token)
-      
-        return {
-          id:id,
-          email:username,
-          apiKey:token
-        };
+    
+        return { id:id,email:username,apiKey:token };
       
     }
 }
